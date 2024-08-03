@@ -1,0 +1,4 @@
+include vending_machine/schema.sql
+graft vending_machine/static
+graft vending_machine/templates
+global-exclude *.pyc

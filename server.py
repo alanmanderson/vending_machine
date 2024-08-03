@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def base():
+    render_template('base')
     set_password('alan', 'test')
     return 'Hello, World!'
 
@@ -22,3 +23,6 @@ def _read_password(username):
 
 def _get_hash(password):
     return hashlib.sha256(bytearray(password, 'utf8')).hexdigest()
+
+if __name__ == '__main__':
+    app.run()

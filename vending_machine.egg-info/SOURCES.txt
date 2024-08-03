@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+vending_machine/__init__.py
+vending_machine/auth.py
+vending_machine/db.py
+vending_machine/schema.sql
+vending_machine.egg-info/PKG-INFO
+vending_machine.egg-info/SOURCES.txt
+vending_machine.egg-info/dependency_links.txt
+vending_machine.egg-info/not-zip-safe
+vending_machine.egg-info/requires.txt
+vending_machine.egg-info/top_level.txt
+vending_machine/static/style.css
+vending_machine/templates/base.html
+vending_machine/templates/auth/login.html
+vending_machine/templates/auth/register.html
